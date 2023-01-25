@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CARDAO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DJ/Producer Name</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#shows">Shows</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="about">
+    <h2>About</h2>
+    <p>Information about you as a DJ/producer, including your background and experience.</p>
+  </section>
+  <section id="music">
+    <h2>Music</h2>
+    <p>Links to your music on streaming platforms, such as SoundCloud and Spotify.</p>
+  </section>
+  <section id="shows">
+    <h2>Shows</h2>
+    <p>Upcoming shows, past shows, and booking information.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Contact information, including email, social media handles, and booking form.</p>
+  </section>
+  <footer>
+    <p>Copyright © 2023 DJ/Producer Name</p>
+  </footer>
+</body>
+</html>
