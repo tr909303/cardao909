@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CARDAO</title>
+  <title>DJ/Producer Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <h1>DJ/Producer Name</h1>
+    <div class="container">
+      <h1 class="text-center">DJ/Producer Name</h1>
+    </div>
   </header>
   <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#music">Music</a></li>
-      <li><a href="#shows">Shows</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#music">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shows">Shows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+          </ul>
+    </div>
   </nav>
-  <section id="about">
-    <h2>About</h2>
-    <p>Information about you as a DJ/producer, including your background and experience.</p>
-  </section>
-  <section id="music">
-    <h2>Music</h2>
-    <p>Links to your music on streaming platforms, such as SoundCloud and Spotify.</p>
-  </section>
-  <section id="shows">
-    <h2>Shows</h2>
-    <p>Upcoming shows, past shows, and booking information.</p>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Contact information, including email, social media handles, and booking form.</p>
-  </section>
+  <main>
+    <div class="container">
+      <section id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, ipsum eu bibendum bibendum, ipsum massa facilisis augue, in tincidunt eros nisl vel elit. Sed quis purus in velit gravida bibendum. Sed id orci velit. Sed velit velit, molestie eget euismod et, congue eget ligula. Nam in enim id magna auctor congue.</p>
+      </section>
+      <section id="music">
+        <h2>Music</h2>
+        <ul>
+          <li>Track 1</li>
+          <li>Track 2</li>
+          <li>Track 3</li>
+        </ul>
+      </section>
+      <section id="shows">
+        <h2>Shows</h2>
+        <ul>
+          <li>Show 1</li>
+          <li>Show 2</li>
+          <li>Show 3</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </div>
+  </main>
   <footer>
-    <p>Copyright © 2023 DJ/Producer Name</p>
+    <div class="container">
+      <p class="text-center">Copyright ©2022 DJ/Producer Name</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI
   </footer>
 </body>
 </html>
